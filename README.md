@@ -1,5 +1,5 @@
 #  Pyramid Granularity Attentive Model
-Implement of paper:
+Implement of paper: [AI City Challenge 2019 – City-Scale Video Analytics for Smart Transportation]
 
 ## Dependencies
 
