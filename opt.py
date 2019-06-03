@@ -1,0 +1,16 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='reid')
+parser.add_argument('--device', type=int, default=1, help='gpu device number')
+parser.add_argument('--class_num', default=333, dest='class_num', help='number of the class')
+parser.add_argument('--data_path', default="/home/davisonhu/lab/reid_dataset/AICity_car", help='path of dataset')
+parser.add_argument('--mode', default='train', choices=['train', 'evaluate', 'vis'], help='train or evaluate ')
+parser.add_argument('--freeze', default=False, help='freeze backbone or not ')
+parser.add_argument('--weight', default='weights/pyramid_v1.pth', help='load weights ')
+parser.add_argument('--epoch', default=111, help='number of epoch to train')
+parser.add_argument('--lr', default=2e-4, help='initial learning_rate')
+parser.add_argument('--lr_scheduler', default=[60, 90], help='MultiStepLR,decay the learning rate')
+parser.add_argument("--batchid", default=4, help='the batch for id')
+parser.add_argument("--batchimage", default=4, help='the batch of per id')
+parser.add_argument("--batchtest", default=4, help='the batch size for test')
+opt = parser.parse_args()
