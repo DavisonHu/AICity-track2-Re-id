@@ -22,8 +22,8 @@ Implement of paper:AI City Challenge 2019 – City-Scale Video Analytics for Sma
 
 ## Data
 
-VERI
-AICity track 2
+- [VERI](https://github.com/VehicleReId/VeRidataset) 
+- [AICity track 2](https://www.aicitychallenge.org/2019-data-sets/)
 
 
 ## Weights
