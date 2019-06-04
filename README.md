@@ -16,8 +16,9 @@ Implement of paper:AI City Challenge 2019 – City-Scale Video Analytics for Sma
 - PIL
 - h5py
 
+## Architecture
 
-
+![image](https://github.com/DavisonHu/AICity-track2-Re-id/blob/master/image/architecture.png)
 
 ## Data
 
